@@ -1,0 +1,72 @@
+<div class="dahliaOS-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="dahliaOS-title mdl-layout-title">
+            <img class="android-logo-image" src="{{@site.logo}}">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="dahliaOS-header-spacer mdl-layout-spacer"></div>
+          <div class="dahliaOS-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+          <!-- Navigation -->
+          <div class="dahliaOS-navigation-container">
+            <nav class="dahliaOS-navigation mdl-navigation">
+              {{!-- <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#features">Features</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#screens">News</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#downloads">Download</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://web.dahliaos.io">Demo</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://github.com/orgs/dahlia-os/people">Developers</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://github.com/dahlia-os/documentation">Documentation</a> --}}
+              {{#foreach navigation}}
+              <a class="mdl-navigation__link mdl-typography--text-uppercase nav-{{slug}}{{#if current}} active{{/if}}" href="{{url}}">{{label}}</a>
+              {{/foreach}}
+            </nav>
+          </div>
+          <span class="dahliaOS-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="{{@site.logo}}">
+          </span>
+          <button class="dahliaOS-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li href="https://github.com/dahlia-os" class="mdl-menu__item">Source Code</li>
+            <li href="https://dahliaos.slack.com" class="mdl-menu__item">Team Login</li>
+            <li disabled class="mdl-menu__item">For Enterprise</li>
+            
+          </ul>
+        </div>
+      </div>
+
+      <div class="dahliaOS-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="{{asset "images/logo-white.png"}}">
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="#features">Features</a>
+          <a class="mdl-navigation__link" href="#screens">News</a>
+          <a class="mdl-navigation__link" href="#downloads">Download</a>
+          <a class="mdl-navigation__link" href="https://discord.gg/jwgS3t6">Contact</a>
+          <a class="mdl-navigation__link" href="https://github.com/orgs/dahlia-os/people">Developers</a>
+          <a class="mdl-navigation__link" href="https://github.com/dahlia-os/documentation">Documentation</a>
+       
+          
+          <div class="dahliaOS-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Resources</span>
+          <a class="mdl-navigation__link" href="https://discord.gg/jwgS3t6">Discord</a>
+          <a class="mdl-navigation__link" href="https://github.com/dahlia-os">Github</a>
+          <a class="mdl-navigation__link" href="https://reddit.com/r/dahliaos">Reddit</a>
+          <a class="mdl-navigation__link" href="https://www.facebook.com/pg/officialdahliaos/">Facebook</a>
+          <a class="mdl-navigation__link" href="https://instagram.com/officialdahliaos">Instagram</a>
+          <a class="mdl-navigation__link" href="https://www.twitter.com/realdahliaos">Twitter</a>
+          <div class="dahliaOS-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">For developers</span>
+          <a class="mdl-navigation__link" href="https://github.com/dahlia-os">Source Code</a>
+          <a class="mdl-navigation__link" href="https://discord.gg/jwgS3t6">Join Our Team</a>
+          <a class="mdl-navigation__link" href="https://dahliaos.slack.com">Team Slack</a>
+        </nav>
+      </div>
