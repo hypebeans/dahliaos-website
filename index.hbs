@@ -39,10 +39,10 @@
         </style>
 
         {{#foreach posts}}
-        <div class="dahliaOS-tablet dahliaOS-screen">
+        <div class="dahliaOS-tablet dahliaOS-screen blog-entry {{post_class}}">
             <div class="demo-card-square mdl-card mdl-shadow--2dp">
                 <div class="mdl-card__title mdl-card--expand" style="background:
-                  url('{{#if feature_image}}{{feature_image}}{{else}}images/gradient.png{{/if}}') center #ff3d00; background-size:cover;">
+                  url('{{#if feature_image}}{{feature_image}}{{else}}images/gradient.png{{/if}}') center #ff3d00; background-size:cover; ">
                     <h2 class="mdl-card__title-text">{{primary_tag.name}} ● {{title}} ● {{date published_at format="Do of MMMM, YYYY"}}</h2>
                 </div>
                 <div class="mdl-card__supporting-text">

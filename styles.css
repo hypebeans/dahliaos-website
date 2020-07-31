@@ -1391,3 +1391,7 @@ header, footer {
   content: "•";
   margin: 0 .5em;
 }
+.tag-hash-light-picture h2 {
+  color: #000000;
+  background-color: #ffffff7f;
+}
