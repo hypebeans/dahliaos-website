@@ -1391,7 +1391,12 @@ header, footer {
   content: "•";
   margin: 0 .5em;
 }
-.tag-hash-light-picture h2 {
+/* .tag-hash-light-picture h2 {
   color: #000000;
   background-color: #ffffff7f;
+} */
+.dahliaOS-screen .mdl-card__title-text {
+  background: #0007;
+  margin: -16px;
+  padding: 16px;
 }
