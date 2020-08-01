@@ -42,7 +42,7 @@
         <div class="dahliaOS-tablet dahliaOS-screen blog-entry {{post_class}}">
             <div class="demo-card-square mdl-card mdl-shadow--2dp">
                 <div class="mdl-card__title mdl-card--expand" style="background:
-                  url('{{#if feature_image}}{{feature_image}}{{else}}images/gradient.png{{/if}}') center #ff3d00; background-size:cover; ">
+                  url('{{#if feature_image}}{{feature_image}}{{else}}{{asset "images/gradient.png"}}{{/if}}') center #ff3d00; background-size:cover; ">
                     <h2 class="mdl-card__title-text">{{primary_tag.name}} ● {{title}} ● {{date published_at format="Do of MMMM, YYYY"}}</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
@@ -61,7 +61,7 @@
         <div class="dahliaOS-tablet dahliaOS-screen">
             <div class="demo-card-square mdl-card mdl-shadow--2dp">
                 <div class="mdl-card__title mdl-card--expand" style="background:
-                  url('images/gradient.png') center left 15% no-repeat #ff3d00;">
+                  url('{{asset "images/gradient.png"}}') center left 15% no-repeat #ff3d00;">
                     <h2 class="mdl-card__title-text">Community ● We've been featured on Distrowatch! ● 27th of July,
                         2020</h2>
                 </div>
@@ -83,7 +83,7 @@
         <div class="dahliaOS-tablet dahliaOS-screen">
             <div class="demo-card-square mdl-card mdl-shadow--2dp">
                 <div class="mdl-card__title mdl-card--expand" style="background:
-                  url('images/update1.png') center left 15% no-repeat #ff3d00;">
+                  url('{{asset "images/update1.png"}}') center left 15% no-repeat #ff3d00;">
                     <h2 class="mdl-card__title-text">Release ● dahliaOS Linux-Based build 200630.1 ● 30th of June, 2020
                     </h2>
                 </div>
@@ -106,7 +106,7 @@
         <div class="dahliaOS-tablet dahliaOS-screen">
             <div class="demo-card-square mdl-card mdl-shadow--2dp">
                 <div class="mdl-card__title mdl-card--expand" style="background:
-                      url('images/gradient.png') bottom right 15% no-repeat #ff3d00;">
+                      url('{{asset "images/gradient.png"}}') bottom right 15% no-repeat #ff3d00;">
                     <h2 class="mdl-card__title-text">We've been featured in an article! ● 29th of June, 2020</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
@@ -131,7 +131,7 @@
         <div class="dahliaOS-tablet dahliaOS-screen">
             <div class="demo-card-square mdl-card mdl-shadow--2dp">
                 <div class="mdl-card__title mdl-card--expand" style="background:
-                          url('images/screenshots/02.png') top right 15% no-repeat #ff3d00;">
+                          url('{{asset "images/screenshots/02.png"}}') top right 15% no-repeat #ff3d00;">
                     <h2 class="mdl-card__title-text">Release ● Pangolin web build & domain ● 29th of June, 2020</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
@@ -154,7 +154,7 @@
         <div class="dahliaOS-tablet dahliaOS-screen">
             <div class="demo-card-square mdl-card mdl-shadow--2dp">
                 <div class="mdl-card__title mdl-card--expand" style="background:
-                              url('images/screenshots/old.png') top left 15% no-repeat #ff3d00;color:#ffffff;">
+                              url('{{asset "images/screenshots/old.png"}}') top left 15% no-repeat #ff3d00;color:#ffffff;">
                     <h2 class="mdl-card__title-text">Release ● Linux build 200614.1 ● 15th of June, 2020</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
@@ -200,7 +200,7 @@
         <div class="dahliaOS-tablet dahliaOS-screen">
             <div class="demo-card-square mdl-card mdl-shadow--2dp">
                 <div class="mdl-card__title mdl-card--expand" style="background:
-                                      url('images/screenshots/old.png') top left 15% no-repeat #ff3d00;color:#ffffff;">
+                                      url('{{asset "images/screenshots/old.png"}}') top left 15% no-repeat #ff3d00;color:#ffffff;">
                     <h2 class="mdl-card__title-text">Release ● Pangolin Flutter Web Build ● 12th of June, 2020.</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
@@ -248,7 +248,7 @@
         <div class="dahliaOS-tablet dahliaOS-screen">
             <div class="demo-card-square mdl-card mdl-shadow--2dp">
                 <div class="mdl-card__title mdl-card--expand" style="background:
-                                              url('images/gradient.png') bottom right 15% no-repeat #ff3d00;">
+                                              url('{{asset "images/gradient.png"}}') bottom right 15% no-repeat #ff3d00;">
                     <h2 class="mdl-card__title-text">Development ● New user interfaces! ● 11th of June, 2020.</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
@@ -310,7 +310,7 @@
     <div class="dahliaOS-card-container mdl-grid">
         <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
             <div class="mdl-card__media">
-                <img src="images/screenshots/recovery.png">
+                <img src="{{asset "images/screenshots/recovery.png"}}">
             </div>
             <div class="mdl-card__title">
                 <h4 class="mdl-card__title-text">Internet Recovery</h4>
@@ -331,7 +331,7 @@
 
         <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
             <div class="mdl-card__media">
-                <img src="images/screenshots/boot.png">
+                <img src="{{asset "images/screenshots/boot.png"}}">
             </div>
             <div class="mdl-card__title">
                 <h4 class="mdl-card__title-text">Powered by the best of Fuchsia and Linux</h4>
@@ -352,7 +352,7 @@
 
         <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
             <div class="mdl-card__media">
-                <img src="images/screenshots/01.png">
+                <img src="{{asset "images/screenshots/01.png"}}">
             </div>
             <div class="mdl-card__title">
                 <h4 class="mdl-card__title-text">Effortless multitasking</h4>
@@ -372,7 +372,7 @@
 
         <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
             <div class="mdl-card__media">
-                <img src="images/screenshots/specs.png" href="images/screenshots/specs.png">
+                <img src="{{asset "images/screenshots/specs.png"}}" href="{{asset "images/screenshots/specs.png"}}">
             </div>
             <div class="mdl-card__title">
                 <h4 class="mdl-card__title-text">Optimized for every platform</h4>
@@ -393,7 +393,7 @@
 
         <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
             <div class="mdl-card__media">
-                <img src="images/screenshots/source.png">
+                <img src="{{asset "images/screenshots/source.png"}}">
             </div>
             <div class="mdl-card__title">
                 <h4 class="mdl-card__title-text">Free and open source</h4>
@@ -413,7 +413,7 @@
 
         <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
             <div class="mdl-card__media">
-                <img src="images/gradient.png">
+                <img src="{{asset "images/gradient.png"}}">
             </div>
             <div class="mdl-card__title">
                 <h4 class="mdl-card__title-text">Rolling Release</h4>
@@ -434,7 +434,7 @@
 
         <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
             <div class="mdl-card__media">
-                <img src="images/screenshots/02.png">
+                <img src="{{asset "images/screenshots/02.png"}}">
             </div>
             <div class="mdl-card__title">
                 <h4 class="mdl-card__title-text">Built-in containers</h4>
@@ -454,7 +454,7 @@
 
         <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
             <div class="mdl-card__media">
-                <img src="images/screenshots/10.png">
+                <img src="{{asset "images/screenshots/10.png"}}">
             </div>
             <div class="mdl-card__title">
                 <h4 class="mdl-card__title-text">Developer Friendly</h4>
