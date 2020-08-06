@@ -198,7 +198,7 @@ a img{
   height: 800px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/bg-light.svg') center -20% no-repeat;
+  background: url('assets/images/bg-light.svg') center -20% no-repeat;
   background-size: cover;
 }
 
@@ -213,7 +213,7 @@ border-radius:25px;
 margin-bottom:50vh;
 }
 .dahlia-pic1{
-  background: url('images/screenshots/01.png') no-repeat;
+  background: url('assets/images/screenshots/01.png') no-repeat;
   background-size: cover;
   height: 50vw;
   width: 80vw;
@@ -350,7 +350,7 @@ margin-bottom:50vh;
 
 .dahliaOS-wear-section {
   position: relative;
-  background: url('images/apps-4k.png') center 1000% no-repeat;
+  background: url('assets/images/apps-4k.png') center 1000% no-repeat;
   background-size: cover;
   height: 800px;
 }
@@ -421,13 +421,13 @@ margin-bottom:50vh;
   }
 
 .dahliaOS-customized-section-image {
-  background: url('images/screenshots/collage.png') center 0% no-repeat;
+  background: url('assets/images/screenshots/collage.png') center 0% no-repeat;
   background-size: cover;
   height: 400px;
 }
 
 .dahliaOS-download-section-image {
-  background: url('images/bg-light.svg') center 40% no-repeat;
+  background: url('assets/images/bg-light.svg') center 40% no-repeat;
   background-size: cover;
   height: 400px;
 }
@@ -782,7 +782,7 @@ margin-bottom:50vh;
     height: 800px;
     width: auto;
     background-color: #f3f3f3;
-    background: url('images/bg-dark.svg') center -20% no-repeat;
+    background: url('assets/images/bg-dark.svg') center -20% no-repeat;
     background-size: cover;
   }
   
@@ -797,7 +797,7 @@ margin-bottom:50vh;
   margin-bottom:50vh;
   }
   .dahlia-pic1{
-    background: url('images/screenshots/01.png') no-repeat;
+    background: url('assets/images/screenshots/01.png') no-repeat;
     background-size: cover;
     height: 50vw;
     width: 80vw;
@@ -939,7 +939,7 @@ color: #ffffff;
   
   .dahliaOS-wear-section {
     position: relative;
-    background: url('images/apps-4k.png') center 1000% no-repeat;
+    background: url('assets/images/apps-4k.png') center 1000% no-repeat;
     background-size: cover;
     height: 800px;
   }
@@ -1010,13 +1010,13 @@ color: #ffffff;
     }
   
   .dahliaOS-customized-section-image {
-    background: url('images/screenshots/collage2.jpg') center 0% no-repeat;
+    background: url('assets/images/screenshots/collage2.jpg') center 0% no-repeat;
     background-size: cover;
     height: 400px;
   }
   
   .dahliaOS-download-section-image {
-    background: url('images/bg-dark.svg') center 40% no-repeat;
+    background: url('assets/images/bg-dark.svg') center 40% no-repeat;
     background-size: cover;
     height: 400px;
   }
